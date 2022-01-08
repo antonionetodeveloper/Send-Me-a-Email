@@ -40,7 +40,7 @@ function App(){
           onChange={(e1) => {setWho(e1.target.value)}}
         />
  
-        <label htmlFor="Content"/>
+        <label/>
         <textarea 
           className="content" 
           name="message"
