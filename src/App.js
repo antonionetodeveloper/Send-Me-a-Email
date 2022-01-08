@@ -33,7 +33,7 @@ function App(){
       <form className="input" ref={form} onSubmit={sendEmail} >
         <label htmlFor="email"/>
         <input 
-          className="emailTo"
+          className="toWho"
           name="name"
           placeholder="Seu nome" 
           value={who}
