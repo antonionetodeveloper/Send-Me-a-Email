@@ -37,7 +37,7 @@ function App(){
           name="name"
           placeholder="Seu nome" 
           value={who}
-          onChange={(e) => {setWho(e.target.value)}}
+          onChange={(e1) => {setWho(e1.target.value)}}
         />
  
         <label htmlFor="Content"/>
@@ -46,7 +46,7 @@ function App(){
           name="message"
           placeholder="Escreva algo.."
           value={content}
-          onChange={(e) => {setContent(e.target.value)}}
+          onChange={(e2) => {setContent(e2.target.value)}}
         />
  
         <button
