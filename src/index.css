@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: rgb(7, 7, 24);
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.App{
+  position: relative;
+  top: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 4vw;
+  text-shadow: 1px 1px 20px white;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.emailTo, .content, .send{
+  border-radius: 5px;
+}
+
+.emailTo, .content{
+  text-align: center;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0.301);
+  color: white;
+  font-size: 1.5vw;
+  box-shadow: 0px 0px 10px rgb(255 255 255 / 41%);;
+}
+
+.emailTo{
+  margin-top: 3.5vw;
+  width: 25vw;
+  height: 5vh;
+}
+
+.content{
+  width: 30vw;
+  height: 15vh;
+}
+
+.send{
+  margin-top: 3vh;
+  border: 0px;
+  width: 40%;
+  height: 4vh;
+  font-size: 1.5vw;
+  font-weight: 700;
+  transition: 0.5s;
+}.send:hover{
+  background-color: rgb(34, 0, 73);
+  color: white;
+  box-shadow: 0px 0px 10px rgb(255 255 255 / 41%);;
+}
